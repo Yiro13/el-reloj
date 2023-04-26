@@ -1,7 +1,16 @@
-.info-cont {
-    border: 1px solid black;
+div { 
+    margin: 70px 0 70px 0;
 }
 
-.info-cont-div {
-    border: 1px solid black;
-} 
+p {
+    font-size: 2em;
+}
+
+footer {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.card {
+    text-align: center;
+}

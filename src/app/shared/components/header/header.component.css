@@ -1,0 +1,17 @@
+* {
+    text-decoration: none;
+}
+
+nav {
+    border-bottom: 3px gray groove;
+}
+
+a {
+    font-size: 1.2em;
+    color: rgb(14, 14, 14);
+}
+
+.active {
+    text-decoration: underline;
+    font-size: 1.25em;
+}
