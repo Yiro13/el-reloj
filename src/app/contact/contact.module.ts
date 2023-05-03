@@ -4,16 +4,20 @@ import { CommonModule } from '@angular/common';
 import { ContactRoutingModule } from './contact-routing.module';
 import { ContactComponent } from './pages/contact/contact.component';
 import { SharedModule } from '../shared/shared.module';
+import { FormComponent } from './components/form/form.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
-    ContactComponent
+    ContactComponent,
+    FormComponent
   ],
   imports: [
     CommonModule,
     ContactRoutingModule,
-    SharedModule
+    SharedModule,
+    FormsModule
   ]
 })
 export class ContactModule { }

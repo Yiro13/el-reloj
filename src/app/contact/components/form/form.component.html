@@ -1,0 +1,14 @@
+<form (ngSubmit)="enviarFormulario()">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" [(ngModel)]="nombre" required>
+  
+    <label for="email">Email:</label>
+    <input type="email" name="email" [(ngModel)]="email" required>
+  
+    <label for="mensaje">Mensaje:</label>
+    <br>
+    <textarea name="mensaje" [(ngModel)]="mensaje" required></textarea>
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+  
